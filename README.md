@@ -1,7 +1,7 @@
 # Income Predictions Project
-Author:   [Jaleel Walter Henry Savoy](mailto:jaleelwsavoy@outlook.com)
-Date:     10/22/2017
-Language: R
+- Author:   [Jaleel Walter Henry Savoy](mailto:jaleelwsavoy@outlook.com)
+- Date:     10/22/2017
+- Language: R
 
 # Required Packages
 * library(xgboost)
