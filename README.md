@@ -7,13 +7,10 @@ Language: R
 
 # Required Packages
 * library(rpart)
+* library(e1071)
 * library(rpart.plot)
-* library(readr)
-* library(stringr)
 * library(caret)
-* library(car)
 * library(caTools)
-* library(sqldf)
 * library(ggplot2)
 
 # Problem Statement
