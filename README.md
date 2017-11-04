@@ -6,7 +6,8 @@ Date:     10/22/2017
 Language: R
 
 # Required Packages
-* library(xgboost)
+* library(rpart)
+* library(rpart.plot)
 * library(readr)
 * library(stringr)
 * library(caret)
