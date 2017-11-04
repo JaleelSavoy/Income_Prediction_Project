@@ -29,7 +29,7 @@ Prediction task is to determine whether a person makes over 50K a year and which
 * library(ggplot2)
 
 # Problem Statement
-The goal was to accurately predict income by identifying the relevant features from the collected data. To achieve this goal I would be using various machine learning methods to the data. The benefit of being able to segment adults by income would be useful in marketing campaigns and customer target market identification. 
+The goal was to accurately predict income by identifying the relevant features from the collected data. To achieve this goal I would be using various machine learning methods to the data. The benefit of being able to segment adults by income would be useful in marketing campaigns and customer target market identification, as well as raising societal awareness.
 
 # Approach
 Coming soon
@@ -41,5 +41,5 @@ Coming soon
 ## Third Model (Self-employed)
 ## Fourth Model (Government Employees)
 
-# Evaluation
+# Evaluation and Limitations
 Coming soon
