@@ -5,6 +5,22 @@ Date:     10/22/2017
 
 Language: R
 
+Source: UCI Machine Learning Repository
+
+Donor: 
+
+Ronny Kohavi and Barry Becker 
+Data Mining and Visualization 
+Silicon Graphics. 
+e-mail: ronnyk '@' live.com for questions. 
+
+
+Data Set Information:
+
+Extraction was done by Barry Becker from the 1994 Census database. A set of reasonably clean records was extracted using the following conditions: ((AAGE>16) && (AGI>100) && (AFNLWGT>1)&& (HRSWK>0)) 
+
+Prediction task is to determine whether a person makes over 50K a year and which people are more likely to make over 50K a year.
+
 # Required Packages
 * library(rpart)
 * library(e1071)
