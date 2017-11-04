@@ -5,7 +5,7 @@ Date:     10/22/2017
 
 Language: R
 
-Source: UCI Machine Learning Repository
+Source: UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/datasets/adult)
 
 Donor: 
 
