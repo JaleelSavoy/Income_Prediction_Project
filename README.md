@@ -9,10 +9,9 @@ Source: UCI Machine Learning Repository
 
 Donor: 
 
-Ronny Kohavi and Barry Becker 
-Data Mining and Visualization 
-Silicon Graphics. 
-e-mail: ronnyk '@' live.com for questions. 
+- Ronny Kohavi and Barry Becker 
+- Data Mining and Visualization 
+- Silicon Graphics. 
 
 
 Data Set Information:
