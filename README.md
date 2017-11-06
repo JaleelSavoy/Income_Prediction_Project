@@ -1,4 +1,4 @@
-# Income Predictions Project
+# Segmenting Adults by Income Using 1994 Census Data
 Author:   [Jaleel Walter Henry Savoy](mailto:jaleelwsavoy@outlook.com)
 
 Date:     10/22/2017
