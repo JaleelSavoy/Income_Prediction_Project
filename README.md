@@ -39,7 +39,7 @@ Since I was segmenting the adults into those that earn greater than 50K and thos
 # Results and Evaluation
 The model was able to reach the goals of greater than 75% accuracy and greater than 70% precision on the first iteration; the model had an accuracy of 84.25% and precision of 75%. At 50.36%, the recall could be improved; there were nearly as many false negatives as there were false positives. The second iteration of the model only included significant explanatory that were strongly correlated to the response variable. 
 
-The model's second iteration used:  Age, Work_Class, Education_Num, Relationship, Race, Sex, Capital Gain, Capital Loss, and Hours Per Week. The accuracy increased slightly to 84.70%, the precision slightly decreased to 75.73%, and recall increased to 53.67%. The model is sufficient, but there is clearly room for improvement.
+The model's second iteration used:  Age, Work_Class, Education_Num, Relationship, Race, Sex, Capital Gain, Capital Loss, and Hours Per Week. The accuracy increased slightly to 84.70%, the precision slightly decreased to 75.73%, and recall increased to 53.67%. The model is sufficient for general insights and ideation, but there is clearly room for improvement. Only a bit more half of the adults making greater than 50K are actually classified as such; this makes the model, in its current iteration, not fit for actual business decision-making.
 
 # Limitations
 1) Old data: Since the data is old, then it may not perform well when tested on more recent census data. Society has changed and that is refelcted in demographic data.
