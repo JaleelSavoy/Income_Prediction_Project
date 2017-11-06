@@ -42,4 +42,6 @@ The model was able to reach the goals of greater than 75% accuracy and greater t
 The model's second iteration used:  Age, Work_Class, Education_Num, Relationship, Race, Sex, Capital Gain, Capital Loss, and Hours Per Week. The accuracy increased slightly to 84.70%, the precision slightly decreased to 75.73%, and recall increased to 53.67%. The model is sufficient, but there is clearly room for improvement.
 
 # Limitations
-*1) 
+1) Old data: Since the data is old, then it may not perform well when tested on more recent census data. Society has changed and that is refelcted in demographic data.
+2) Leaving out geographic region of residence: Depending on where the adults resides, the income of similar adults can be significantly different.
+2) 
