@@ -29,17 +29,15 @@ Prediction task is to determine whether a person makes over 50K a year and which
 * library(ggplot2)
 
 # Problem Statement
-The goal was to accurately predict income by identifying the relevant features from the collected data. To achieve this goal I would be using various machine learning methods to the data. The benefit of being able to segment adults by income would be useful in marketing campaigns and customer target market identification, as well as raising societal awareness.
+I want to apply analytic methods and machine learning tools to the Adult 1994 Income Census dataset. The specific goal is to gain insights in the 1994 census data on adult income in America, while creating a model that can accurately (greater than 75%) and precisely (greater than 70%) classify adults into earners of greater than 50K. 
+
+The ability to segment adults based on income using easily attainable features is useful and interesting; an accurate model to segment adults based on income could be used to: identify societal areas of improvement, develop marketing strategies, identify target markets, and more. 
 
 # Approach
-Coming soon
+Since I was segmenting the adults into those that earn greater than 50K and those that did not, I decided to use recursive partitioning for classification. The recursive partitioning model was made using Income as the response variable; the explanatory variables were: Age, Sex, Hour Per Week, Education Number (years), Highest Education, Work Class, Race, Occupation, Martial Status, Relationship, Capital Gain, Capital Loss, and Native Country. All features of the dataset, except for Sampling Weight, were used for the model. The model had a recursive partitioning control minimum-split of 10.
 
 # Results
-Coming soon
-## First Model (All employees)
-## Second Model (Private company employees)
-## Third Model (Self-employed)
-## Fourth Model (Government Employees)
+The model was able to reach the goals of greater than 75% accuracy and greater than 70% precision on the first iteration; the model had an accuracy of 84.25% and precision of 75%. The recall could be improved; there were nearly as many false negatives as there were false positives. The second iteration of the model only included significant explanatory that were strongly correlated to the response variable. The model's second iteration used:  Age, Work_Class, Education_Num, Relationship, Race, Sex, Capital Gain, Capital Loss, and Hours Per Week.
 
 # Evaluation and Limitations
 Coming soon
