@@ -38,6 +38,7 @@ Since I was segmenting the adults into those that earn greater than 50K and thos
 
 # Insights
 * 24.1% of adults made more than 50K USD annually
+* Majority of adults making more than 50K USD annually worked in the private sector (63.29%)
 * 30.6% of adult males and 11% of adult females made more than 50K USD annually
 * The adults that made more than 50K USD annually were overwhelming White (90.77%)
 * Of adults making more than 50K USD annually: 77.66% were White males, 3.79% were Black males, 2.97% were Asian males, and 0.3% were American-Indian/Eskimo males. 
@@ -46,7 +47,6 @@ Since I was segmenting the adults into those that earn greater than 50K and thos
 * Adults that made more than 50K USD annually were majority male
 * The adults that made more than 50K USD annually generally had higher levels of education
 * Most Self-Employed (Incorporated) adults made more than 50K USD annually
-* Majority of adults making more than worked for the private sector (63.29%)
 
 # Model Results and Evaluation
 The model was able to reach the goals of greater than 75% accuracy and greater than 70% precision on the first iteration; the model had an accuracy of 84.25% and precision of 75%. At 50.36%, the recall could be improved; there were nearly as many false negatives as there were false positives. The second iteration of the model only included significant explanatory that were strongly correlated to the response variable. 
