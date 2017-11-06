@@ -44,4 +44,3 @@ The model's second iteration used:  Age, Work_Class, Education_Num, Relationship
 # Limitations
 1) Old data: Since the data is old, then it may not perform well when tested on more recent census data. Society has changed and that is refelcted in demographic data.
 2) Leaving out geographic region of residence: Depending on where the adults resides, the income of similar adults can be significantly different.
-2) 
