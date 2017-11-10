@@ -5,6 +5,7 @@
 set.seed(123)
 setwd("C:/Users/jalee/Desktop/Machine Learning Course")
 library(rpart)
+library(MLmetrics)
 library(caTools)
 library(e1071)
 library(rpart.plot)
@@ -403,3 +404,5 @@ sum(predictions$` >50K`== 0 & test_set$Income == 1) #908/8149 false negatives 11
 # 1  908  1052
 
 # Slight decrease in precision, slight increase in recall, and slight increase in accuracy; this model is roughly the same in performance as the first model
+F1_Score(test_set$Income, predictions$` >50K`)
+#F1 score of .9037
